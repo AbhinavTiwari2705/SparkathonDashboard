@@ -1,0 +1,73 @@
+School Type,India/ State/ UTs,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010
+Primary School,India,NA,NA,NA,NA,NA,0.94,0.98,0.99,1,1.01
+Primary School,Andaman and Nicobar Islands,1,0.95,0.95,0.98,1,1.02,1.06,1,0.98,0.97
+Primary School,Andhra Pradesh,0.99,1.01,1.01,1.01,1.01,1,1,1.01,1,1
+Primary School,Arunachal Pradesh,0.83,0.88,0.9,0.89,0.9,0.9,0.92,0.95,0.96,0.96
+Primary School,Assam,0.84,0.97,1,0.99,1,1.02,1,1,1.03,1.03
+Primary School,Bihar,0.64,0.81,0.8,0.75,0.75,0.77,0.82,0.84,0.87,0.94
+Primary School,Chandigarh,0.97,0.98,0.98,0.9,0.87,0.83,0.87,0.98,0.99,0.99
+Primary School,Chhattisgarh,0.87,0.95,0.99,0.94,0.77,0.94,0.95,0.95,0.95,0.96
+Primary School,Dadra and Nagar Haveli,0.72,0.86,0.88,0.93,0.96,0.98,1.01,1.08,1.05,1.03
+Primary School,Daman and Diu,0.81,0.96,0.99,0.88,0.87,0.92,0.86,1.02,1.04,1.08
+Primary School,Delhi,0.95,1.03,0.99,1.11,1.04,1,1.02,1.02,1.02,1.03
+Primary School,Goa,0.84,0.96,0.95,0.98,0.96,0.97,0.98,0.97,0.95,0.95
+Primary School,Gujarat,0.84,0.95,0.92,0.87,0.87,0.87,0.88,1.07,1.01,1.02
+Primary School,Haryana,1,1.01,1.05,1.06,1.04,1.04,1.07,1.18,1.04,1.11
+Primary School,Himachal Pradesh,0.83,1,1.01,0.99,1.01,1,1,1,1,1
+Primary School,Jammu and Kashmir,0.76,0.87,0.89,0.98,0.95,0.95,0.95,0.99,1.02,1.03
+Primary School,Jharkhand,0.76,0.84,0.82,0.84,0.86,0.89,1,1,1.02,1.02
+Primary School,Karnataka,0.93,0.97,0.97,0.98,0.98,0.97,0.98,0.98,0.99,0.99
+Primary School,Kerala,0.99,0.99,0.99,1,1,1.01,1.01,1.01,1,1
+Primary School,Lakshadweep,86,0.88,0.9,0.89,0.93,1.02,0.94,1.02,1.03,0.99
+Primary School,Madhya Pradesh,0.85,0.92,0.9,0.95,0.96,0.96,0.99,1,1.01,1.06
+Primary School,Maharashtra,0.96,0.98,0.99,1,0.98,0.96,0.97,0.97,0.98,0.98
+Primary School,Manipur,0.84,0.97,0.97,0.96,0.96,0.96,0.97,0.96,0.96,0.96
+Primary School,Meghalaya,0.91,1.05,1.03,1.03,0.98,0.99,0.98,0.98,1.01,1.01
+Primary School,Mizoram,0.81,0.96,0.96,0.93,0.98,0.96,0.94,0.94,0.93,0.94
+Primary School,Nagaland,0.91,0.98,0.99,0.98,0.98,0.98,1,0.99,0.99,0.99
+Primary School,Odisha,0.73,0.94,0.94,0.97,0.97,0.96,1,1.01,1.01,1.01
+Primary School,Puducherry,0.82,0.98,0.97,0.87,0.88,0.87,0.87,0.98,0.98,0.98
+Primary School,Punjab,1.01,1.08,1.08,1.08,1.08,1.09,0.98,0.98,1.03,0.99
+Primary School,Rajasthan,0.6,0.91,0.91,0.93,0.95,0.95,0.95,0.94,0.97,0.99
+Primary School,Sikkim,0.95,1.02,1,0.99,0.97,1.01,0.98,0.97,0.97,0.97
+Primary School,Tamil Nadu,1,0.98,0.98,0.98,0.99,1,1,0.99,1.01,1.01
+Primary School,Tripura,0.84,0.95,0.95,0.96,0.95,0.96,0.98,0.98,0.98,0.99
+Primary School,Uttar Pradesh,0.61,96,0.96,0.94,0.93,0.93,1.05,1.06,1.08,1.05
+Primary School,Uttarakhand,1.02,1.02,1.01,1.01,1.03,1.05,1.09,1.03,1.03,1.02
+Primary School,West Bengal,0.95,1.01,1,0.99,0.96,1.01,0.99,1.01,1.01,1.03
+Upper Primary School,India,NA,NA,NA,NA,NA,0.9,0.91,0.93,0.94,0.95
+Upper Primary School,Andaman and Nicobar Islands,0.97,0.93,0.91,1.06,1.07,0.97,0.91,0.96,0.97,0.97
+Upper Primary School,Andhra Pradesh,0.86,0.92,0.93,0.95,0.96,0.97,0.98,0.99,0.99,1
+Upper Primary School,Arunachal Pradesh,0.89,0.88,0.87,0.85,0.85,0.86,0.87,0.91,0.93,0.95
+Upper Primary School,Assam,0.79,0.97,0.93,0.93,0.93,0.94,0.98,1.04,1.04,1.02
+Upper Primary School,Bihar,0.55,0.62,0.63,0.61,0.64,0.69,0.73,0.76,0.82,0.88
+Upper Primary School,Chandigarh,1.1,1.01,1.01,1.11,1.05,1.03,0.97,0.95,0.92,0.91
+Upper Primary School,Chhattisgarh,0.72,0.79,0.79,0.79,0.87,0.89,0.89,0.92,0.93,0.94
+Upper Primary School,Dadra and Nagar Haveli,0.62,0.66,0.69,0.74,0.75,0.73,0.81,0.94,0.94,1
+Upper Primary School,Daman and Diu,0.68,0.91,0.93,1.17,1.13,0.94,0.84,1.1,1.1,1.12
+Upper Primary School,Delhi,0.93,0.99,1.01,1.13,1.07,1.07,1.05,0.99,0.97,0.96
+Upper Primary School,Goa,0.87,0.93,0.93,0.97,0.95,0.94,0.92,0.92,0.92,0.93
+Upper Primary School,Gujarat,0.93,0.82,0.7,0.82,0.82,0.82,0.82,0.94,0.91,0.91
+Upper Primary School,Haryana,0.93,0.91,0.91,0.96,1,1.03,1.01,1.19,1.04,1.03
+Upper Primary School,Himachal Pradesh,0.87,0.95,0.97,0.97,0.97,0.97,0.98,0.98,0.98,0.96
+Upper Primary School,Jammu and Kashmir,0.76,0.85,0.85,0.85,0.82,0.82,0.82,0.95,0.95,0.96
+Upper Primary School,Jharkhand,0.7,0.73,0.76,0.75,0.75,0.77,0.71,0.7,0.97,0.99
+Upper Primary School,Karnataka,0.9,0.92,0.93,0.95,0.97,0.96,0.97,0.97,0.96,0.97
+Upper Primary School,Kerala,0.95,0.95,0.96,0.95,0.95,0.96,0.97,0.96,0.96,0.95
+Upper Primary School,Lakshadweep,0.85,0.87,0.86,1.05,1.17,1,0.92,0.97,1.1,1.26
+Upper Primary School,Madhya Pradesh,0.66,0.7,0.75,0.86,0.87,0.89,0.92,0.93,0.95,1.02
+Upper Primary School,Maharashtra,0.91,0.94,0.96,0.98,1.02,1.01,0.96,0.96,0.95,0.94
+Upper Primary School,Manipur,0.86,0.99,0.94,0.94,0.93,0.93,0.94,0.93,0.93,0.93
+Upper Primary School,Meghalaya,1.02,1.11,1.03,1.12,1.06,1.08,1.07,1.11,1.11,1.12
+Upper Primary School,Mizoram,0.96,0.99,0.99,0.99,1,0.98,0.98,0.96,0.95,0.94
+Upper Primary School,Nagaland,1.04,1.01,1.05,1,1.04,1.04,1.04,1.02,1.02,1.02
+Upper Primary School,Odisha,0.66,0.84,0.85,0.88,0.88,0.89,0.93,0.94,0.96,0.97
+Upper Primary School,Puducherry,0.88,0.96,0.96,0.92,0.91,0.88,0.86,0.93,0.96,0.93
+Upper Primary School,Punjab,0.99,1.05,1.03,1.06,1.05,1.03,0.96,0.97,1,0.96
+Upper Primary School,Rajasthan,0.47,0.59,0.64,0.65,0.68,0.71,0.74,0.75,0.77,0.8
+Upper Primary School,Sikkim,1.15,1.1,1.18,1.17,1.17,1.17,1.21,1.19,1.19,1.22
+Upper Primary School,Tamil Nadu,0.98,0.98,0.96,0.96,0.97,0.98,0.97,0.97,0.98,0.99
+Upper Primary School,Tripura,0.87,0.94,0.93,0.94,0.99,1,1,0.99,1,0.99
+Upper Primary School,Uttar Pradesh,0.5,0.8,0.8,0.8,0.79,0.79,0.9,0.9,0.89,0.9
+Upper Primary School,Uttarakhand,0.95,0.93,0.98,1,1.01,1.02,1.04,1.07,1.07,1.07
+Upper Primary School,West Bengal,0.78,0.92,0.95,0.91,0.88,1.03,1.03,1.03,1.08,1.04
