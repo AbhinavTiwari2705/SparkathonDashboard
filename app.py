@@ -30,7 +30,7 @@ if selected == "EDA":
     label = "Select the data",
     options = ['Gender_Parity_Index-Primary_School']
   )
-  if chart_select == 'Hathaikheda dam':
+  if chart_select == 'Gender_Parity_Index-Primary_School':
       df = pd.read_csv('Gender_Parity_Index-Primary_School_1.csv')
       st.subheader('Gender_Parity_Index-Primary_School_1')
   
