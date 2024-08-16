@@ -1,0 +1,27 @@
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore environment variable files
+.env
+
+# Ignore compiled C++ files
+*.out
+*.o
+
+# Ignore log files
+*.log
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
