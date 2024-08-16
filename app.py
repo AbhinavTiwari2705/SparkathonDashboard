@@ -28,11 +28,11 @@ if selected == "EDA":
 
   chart_select = st.sidebar.selectbox(
     label = "Select the data",
-    options = ['Gender_Parity_Index-Primary_School']
+    options = ['synthetic_seasonal_product_sales']
   )
-  if chart_select == 'Gender_Parity_Index-Primary_School':
-      df = pd.read_csv('Gender_Parity_Index-Primary_School_1.csv')
-      st.subheader('Gender_Parity_Index-Primary_School_1')
+  if chart_select == 'synthetic_seasonal_product_sales(1)':
+      df = pd.read_csv('synthetic_seasonal_product_sales(1).csv')
+      st.subheader('synthetic_seasonal_product_sales(1)')
   
 
    
