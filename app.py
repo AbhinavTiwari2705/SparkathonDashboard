@@ -30,9 +30,9 @@ if selected == "EDA":
     label = "Select the data",
     options = ['synthetic_seasonal_product_sales']
   )
-  if chart_select == 'synthetic_seasonal_product_sales(1)':
+  if chart_select == 'synthetic_seasonal_product_sales':
       df = pd.read_csv('synthetic_seasonal_product_sales(1).csv')
-      st.subheader('synthetic_seasonal_product_sales(1)')
+      st.subheader('synthetic_seasonal_product_sales')
   
 
    
