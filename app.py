@@ -31,7 +31,7 @@ if selected == "EDA":
     options = ['synthetic_seasonal_product_sales']
   )
   if chart_select == 'synthetic_seasonal_product_sales':
-      df1 = pd.read_csv('synthetic_seasonal_product_sales(1).csv')
+      df1 = pd.read_csv('dataset.csv')
       st.subheader('synthetic_seasonal_product_sales')
   
 
