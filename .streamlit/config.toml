@@ -13,4 +13,4 @@ secondaryBackgroundColor = '#E2E3E5'  # Light gray for a subtle contrast
 textColor = '#2C3E50'  # Deep blue-gray for clear visibility and contrast
 
 # Font family for all text in the app, except code blocks
-font = "Poppins"
+font = "sans serif"
