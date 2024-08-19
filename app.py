@@ -19,15 +19,15 @@ if selected == "EDA":
 
     chart_select = st.sidebar.selectbox(
         label="Select the data",
-        options=['synthetic_seasonal_product_sales','other data (Naam nhi pta)']
+        options=['Seasonal Product Sales','Stock Data']
     )
     
-    if chart_select == 'synthetic_seasonal_product_sales':
+    if chart_select == 'Seasonal Product Sales':
         df1 = pd.read_csv('sales.csv')
-        st.subheader('synthetic_seasonal_product_sales')
-    elif chart_select == 'other data (Naam nhi pta)':
+        st.subheader('Seasonal Product Sales')
+    elif chart_select == 'Stock Data':
         df1 = pd.read_csv('dataset.csv')
-        st.subheader('Other Data')
+        st.subheader('Stock Data')
 
     show_data = st.sidebar.checkbox("Show dataset")
     if show_data:
@@ -87,21 +87,65 @@ if selected == "Model":
     original_features = joblib.load('original_features.pkl')
 
     def recommend_price(product_id, store_location, competitor_price, promotion, stock_level, season, rf_model, original_features):
-        # Implement the recommendation logic here
-        # Example placeholder implementation
+        # Create a DataFrame with the input features
+        input_data = pd.DataFrame({
+            'product_id': [product_id],
+            'competitor_price': [competitor_price],
+            'promotion': [promotion],
+            'stock_level': [stock_level],
+            'store_location': [store_location],
+            'season': [season],
+            'month': [1],  # Dummy value, adjust if needed
+            'day': [1],    # Dummy value
+            'day_of_week': [1],  # Dummy value
+            'lag_1': [0],  # Dummy value
+            'lag_7': [0],  # Dummy value
+            'rolling_mean_7': [0],  # Dummy value
+            'rolling_mean_30': [0]  # Dummy value
+        })
+
+        # One-hot encode categorical features (store_location, season) to match the original model training
+        input_data = pd.get_dummies(input_data, columns=['store_location', 'season'], drop_first=True)
+
+        # Align the input data with the original features used to train the model
+        input_data = input_data.reindex(columns=original_features, fill_value=0)
+
+        # Predict the number of units sold using the RandomForest model
+        predicted_units_sold = rf_model.predict(input_data)[0]
+
+        # Apply a simple pricing strategy
+        recommended_price = competitor_price * 1.05 if promotion else competitor_price * 0.95
+
+        # Estimate revenue based on the recommended price and predicted units sold
+        estimated_revenue = predicted_units_sold * recommended_price
+
         return {
             'product_id': product_id,
             'store_location': store_location,
-            'predicted_units_sold': 100,  # Replace with actual prediction
-            'recommended_price': 10.99,  # Replace with actual recommendation
-            'estimated_revenue': 1000  # Replace with actual calculation
+            'predicted_units_sold': predicted_units_sold,
+            'recommended_price': recommended_price,
+            'estimated_revenue': estimated_revenue
         }
 
     # Streamlit app interface
     st.title('Product Price Recommendation')
 
     product_id = st.number_input('Product ID', min_value=0)
-    store_location = st.text_input('Store Location')
+
+    
+
+    # Option to either select from a dropdown or manually input a location
+    use_dropdown = st.checkbox("Check for Own Location")
+
+    if use_dropdown:
+        # Dropdown for common store locations
+        store_location = st.text_input('Enter Store Location')
+    else:
+        # Text input for manual store location entry
+        
+        common_locations = ['New York', 'Los Angeles', 'Chicago', 'Houston', 'Phoenix']
+        store_location = st.selectbox('Store Location', common_locations)
+
     competitor_price = st.number_input('Competitor Price', min_value=0.0, format="%.2f")
     promotion = st.selectbox('Promotion', [0, 1])
     stock_level = st.number_input('Stock Level', min_value=0)
