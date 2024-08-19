@@ -19,15 +19,15 @@ if selected == "EDA":
 
     chart_select = st.sidebar.selectbox(
         label="Select the data",
-        options=['synthetic_seasonal_product_sales','other data (Naam nhi pta)']
+        options=['Seasonal Product Sales','Stock Data']
     )
     
-    if chart_select == 'synthetic_seasonal_product_sales':
+    if chart_select == 'Seasonal Product Sales':
         df1 = pd.read_csv('sales.csv')
-        st.subheader('synthetic_seasonal_product_sales')
-    elif chart_select == 'other data (Naam nhi pta)':
+        st.subheader('Seasonal Product Sales')
+    elif chart_select == 'Stock Data':
         df1 = pd.read_csv('dataset.csv')
-        st.subheader('Other Data')
+        st.subheader('Stock Data')
 
     show_data = st.sidebar.checkbox("Show dataset")
     if show_data:
@@ -131,7 +131,21 @@ if selected == "Model":
     st.title('Product Price Recommendation')
 
     product_id = st.number_input('Product ID', min_value=0)
-    store_location = st.text_input('Store Location')
+
+    
+
+    # Option to either select from a dropdown or manually input a location
+    use_dropdown = st.checkbox("Check for Own Location")
+
+    if use_dropdown:
+        # Dropdown for common store locations
+        store_location = st.text_input('Enter Store Location')
+    else:
+        # Text input for manual store location entry
+        
+        common_locations = ['New York', 'Los Angeles', 'Chicago', 'Houston', 'Phoenix']
+        store_location = st.selectbox('Store Location', common_locations)
+
     competitor_price = st.number_input('Competitor Price', min_value=0.0, format="%.2f")
     promotion = st.selectbox('Promotion', [0, 1])
     stock_level = st.number_input('Stock Level', min_value=0)
