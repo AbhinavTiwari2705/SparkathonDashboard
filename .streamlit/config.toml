@@ -1,0 +1,16 @@
+[theme]
+
+# Primary accent for interactive elements
+primaryColor = '#FF7F50'  # Coral for a warm and vibrant contrast
+
+# Background color for the main content area
+backgroundColor = '#F7F8FA'  # Very light gray for a clean, bright look
+
+# Background color for sidebar and most interactive widgets
+secondaryBackgroundColor = '#E2E3E5'  # Light gray for a subtle contrast
+
+# Color used for almost all text
+textColor = '#2C3E50'  # Deep blue-gray for clear visibility and contrast
+
+# Font family for all text in the app, except code blocks
+font = "Poppins"
